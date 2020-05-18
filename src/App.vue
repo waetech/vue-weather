@@ -19,6 +19,11 @@
       <div class="weather-box">
         <div class="temp">{{ Math.round(weather.main.temp) }}9&#176;C</div>
         <div class="weather">{{ weather.weather[0].main }}</div>
+        
+        
+      </div>
+      <div class="week">
+
       </div>
     </div>
   </main>
@@ -161,6 +166,20 @@ main{
   font-style: italic;
   text-shadow: 3px 6px rgba(0,0,0,0.25);
 
+}
+
+.weather-box .icon{
+  color: #fff;
+  font-size: 42px;
+  font-weight: 500;
+  text-shadow: 3px 6px rgba(0,0,0,0.25);
+}
+
+.weather-box .description {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  text-shadow: 3px 6px rgba(0,0,0,0.25);
 }
 
 
